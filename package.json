@@ -13,9 +13,7 @@
   "homepage": "https://github.com/brodybits/object-from-pairs#readme",
   "bugs": "https://github.com/brodybits/object-from-pairs/issues",
   "scripts": {
-    "eslint": "npm-run-all eslint:index eslint:test eslint:quick-demo",
-    "eslint:index": "eslint index.js",
-    "eslint:test": "eslint test.js",
+    "eslint": "eslint index.js test.js && npm-run-all eslint:quick-demo",
     "eslint:quick-demo": "eslint --rule 'semi:off' --rule 'no-multi-spaces:off' --rule 'comma-dangle:off' --rule 'key-spacing:off' quick-demo.js",
     "test:tape": "tape ./test.js",
     "test": "npm-run-all eslint test:tape"
