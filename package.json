@@ -7,8 +7,10 @@
   "main": "index.js",
   "keywords": [
     "object",
+    "fromentries",
     "pair",
-    "pairs"
+    "pairs",
+    "polyfill"
   ],
   "homepage": "https://github.com/brodybits/object-from-pairs#readme",
   "bugs": "https://github.com/brodybits/object-from-pairs/issues",

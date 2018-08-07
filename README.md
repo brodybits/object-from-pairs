@@ -2,6 +2,8 @@
 
 Create an object from an array of pairs
 
+Can be used as a partial [ponyfill](https://github.com/sindresorhus/ponyfill) or [prollyfil](https://kikobeats.com/polyfill-ponyfill-and-prollyfill/) for [tc39 / proposal-object-from-entries](https://github.com/tc39/proposal-object-from-entries)
+
 **Author:** [@brodybits (Christopher J. Brody)](https://github.com/brodybits)
 
 **License:** CC0 OR UNLICENSE OR ISC OR Apache-2.0 OR CC-BY-SA-3.0 OR CC-BY-SA-4.0
