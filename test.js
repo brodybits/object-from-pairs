@@ -1,6 +1,6 @@
-const test = require('tape');
+const test = require('tape')
 
-const objectFromPairs = require('./index.js');
+const objectFromPairs = require('./index.js')
 
 // THANKS for guidance:
 // - https://ci.testling.com/guide/tape
@@ -8,12 +8,12 @@ const objectFromPairs = require('./index.js');
 
 test('Create an object from two pairs', (t) => {
   t.deepEqual(objectFromPairs([
-    [ 'first' + 'Key',        'first value' ],
-    [ 'second' + '-' + 'key', 'second value' ],
+    [ 'first' + 'Key', 'first value' ],
+    [ 'second' + '-' + 'key', 'second value' ]
   ]), {
-    'firstKey'  : 'first value',
-    'second-key': 'second value',
-  }, 'as');
+    'firstKey': 'first value',
+    'second-key': 'second value'
+  }, 'as')
 
-  t.end();
-});
+  t.end()
+})

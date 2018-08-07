@@ -30,7 +30,7 @@ outputs the following:
 - deeper testing
 - proper API documentation
 - use eslint-config-standard@12 when available (<https://github.com/standard/eslint-config-standard/issues/123>)
-- follow (semi)standard more closely in test.js, quick-demo.js, and sample
+- follow standard more closely in quick-demo.js and sample
 - pre-es6 support
 - test on browser
 - test on AppVeyor & Travis CI
