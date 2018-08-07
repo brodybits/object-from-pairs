@@ -39,10 +39,18 @@ outputs the following:
 - SauceLabs?
 - commit `package-lock.json` (??)
 
+## FUTURE TBD
+
+- merge with the now deprecated <https://npm.im/object-from-entries> package?
+
 ## See also
 
-- <https://npm.im/object-from-entries>
+- <https://npm.im/object-from-entries> (deprecated ponyfill)
+- <https://npm.im/object.fromentries> (polyfill for ES Object.fromEntries proposal)
+- <https://humanwhocodes.com/blog/2010/03/02/maintainable-javascript-dont-modify-objects-you-down-own/> - nice justification for [ponyfill](https://github.com/sindresorhus/ponyfill) over [polyfills](https://www.w3.org/2001/tag/doc/polyfills/)
 - <https://lodash.com/docs/4.17.10#fromPairs>
 - <https://github.com/lodash/lodash/issues/2718>
 - <https://github.com/lodash/lodash/issues/1261>
 - <https://stackoverflow.com/questions/20059995/how-to-create-an-object-from-an-array-of-key-value-pairs>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries>
+- <https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66>
