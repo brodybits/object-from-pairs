@@ -1,6 +1,6 @@
 {
   "name": "object-from-pairs",
-  "version": "0.0.1",
+  "version": "0.0.2-dev",
   "description": "Create an object from an array of pairs",
   "main": "index.js",
   "scripts": {
