@@ -29,7 +29,8 @@ outputs the following:
 
 - deeper testing
 - proper API documentation
-- eslint with standard or semistandard
+- use eslint-config-standard@12 when available (<https://github.com/standard/eslint-config-standard/issues/123>)
+- follow (semi)standard more closely
 - pre-es6 support
 - test on browser
 - test on AppVeyor & Travis CI
