@@ -2,17 +2,17 @@
   "name": "object-from-pairs",
   "version": "0.0.2-dev",
   "description": "Create an object from an array of pairs",
+  "license": "CC0 OR UNLICENSE OR ISC OR Apache-2.0 OR CC-BY-SA-3.0 OR CC-BY-SA-4.0",
+  "author": "Christopher J. Brody",
   "main": "index.js",
-  "scripts": {
-    "test": "tape ./test.js"
-  },
   "keywords": [
     "object",
     "pair",
     "pairs"
   ],
-  "author": "Christopher J. Brody",
-  "license": "CC0 OR UNLICENSE OR ISC OR Apache-2.0 OR CC-BY-SA-3.0 OR CC-BY-SA-4.0",
+  "scripts": {
+    "test": "tape ./test.js"
+  },
   "devDependencies": {
     "tape": "^4.9.1"
   }
