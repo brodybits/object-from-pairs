@@ -29,7 +29,7 @@ outputs the following:
 
 - deeper testing
 - proper API documentation
-- eslint (with standard or semistandard)
+- eslint with standard or semistandard
 - pre-es6 support
 - test on browser
 - test on AppVeyor & Travis CI
