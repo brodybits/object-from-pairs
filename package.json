@@ -10,6 +10,8 @@
     "pair",
     "pairs"
   ],
+  "homepage": "https://github.com/brodybits/object-from-pairs#readme",
+  "bugs": "https://github.com/brodybits/object-from-pairs/issues",
   "scripts": {
     "test": "tape ./test.js"
   },
